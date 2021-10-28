@@ -1,0 +1,69 @@
+.buttons {
+    display: flex;
+  
+}
+
+.sign-btn {
+    margin-left: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 40px;
+    border: 1px solid #979797;
+    background-color: var(--mainColor);
+    color: var(--textWhite);
+    font-family: var(--mainFont);cd font: 1em sans-serif;
+    font-size: 16px;
+    box-shadow: inset 0px -1px 1px rgba(0, 0, 0, 0.6);
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+
+.log-btn {
+    transition: all 0.2s;;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 40px;
+    border: 1px solid #979797;
+    font-family: var(--mainFont);
+   
+}
+
+.sign-btn:hover {
+    background-color: rgb(55, 12, 247);
+
+}
+
+.log-btn:hover {
+    background-color: rgb(55, 12, 247);
+    color: var(--textWhite);
+}
+
+
+.main-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 255px;
+    height: 55px;
+    border-radius: 4px;
+    padding: 13px 45px;
+    font-family: var(--mainFont);
+    font-weight: 800;
+    font-size: 16px;
+    background-color: var(--mainColor);
+    color: var(--textWhite);
+    margin-bottom: 30px;
+    transition: all 0.2s;
+}
+
+.main-btn:hover {
+    background-color:rgb(55, 12, 247);
+}

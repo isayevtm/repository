@@ -1,0 +1,24 @@
+.apple-logo {
+    height: 35px;
+    width: 130px;
+    cursor: pointer;
+}
+
+.google-logo {
+    height: 35px;
+    width: 130px;
+    margin-left:10px;
+    cursor: pointer;
+}
+
+.main-photo {
+    width: 495px;
+    height: 437px;
+    margin-top: 20px;
+}
+
+.logo-image {
+    margin-right: 17px;
+    width: 45px;
+    height: 45px;
+}

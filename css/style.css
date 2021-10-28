@@ -1,0 +1,111 @@
+
+header {
+ 
+    margin-bottom: 30px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+  
+}
+
+
+
+
+.logo-text {
+    font-family: var(--logofont);
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.menu-items {
+    margin-right: 18px;
+    display: flex;
+}
+
+.menu-items li {
+    font-family: var(--mainFont);
+    margin-left: 38px;
+    font-size: 17px;
+    transition: all 0.2s;
+}
+
+.menu-items li a:hover {
+    font-weight: 600;
+    color: #6b1616;
+}
+
+.menu-items li a {
+    transition: all 0.2s;
+}
+
+
+/* Main part */
+section {
+    width: 100%;
+    display: flex;
+  
+}
+
+.left-column {
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    margin-left: 140px;
+    
+}
+
+.right-column {
+    display: flex;
+    flex: 50%;
+}
+
+.app-part {
+    display: flex;
+  
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+
+.data h1 {
+    font-family: var(--mainFont);
+    font-weight: 800;
+    font-size: 74px;
+    line-height: 100px;
+    margin-bottom: 20px;
+}
+.data p {
+    font-size: 24px;
+    line-height: 31px;
+    font-family: var(--mainFont);
+    margin-bottom: 40px; 
+}
+
+
+.down-text {
+    font-family: var(--mainFont);
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+
